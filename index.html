@@ -1,0 +1,87 @@
+<!DOCTYPE html >
+<html >
+<head>
+<title>Etno restoran Šumski raj</title>
+
+<meta charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="styles.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div id="container">
+  <div id="incontainer">
+    <div id="header">
+      <ul class="menu">
+        <li><a  href="KontaktI.html">Kontakt</a></li>
+        <li></li>
+        <li><a href="lokacija1.html">Lokacija</a></li>
+        <li></li>
+        <li><a href="#">Galerija</a></li>
+        <li></li>
+        <li><a href="#">O nama</a></li>
+        <li></li>
+        <li><a  href="index.html">Pocetna</a></li>
+      </ul>
+       </div>
+    <div id="content">
+	
+<div  >
+  <img class="mySlides" src="C:\Users\Macastiiii\Desktop\SumskiRaj\Images\sr1.jpg" style="width:1050px;height:500px; position:relative; margin:0" >
+  <img class="mySlides" src="C:\Users\Macastiiii\Desktop\SumskiRaj\Images\sr6.jpg" style="width:1050px;height:500px; position:relative; margin:0" >
+  <img class="mySlides" src="C:\Users\Macastiiii\Desktop\SumskiRaj\Images\sr5.jpg" style="width:1050px;height:500px; position:relative; margin:0">
+</div>
+
+         <br>
+		 
+	<h1 style="text-align:center; font-size:30px; color:black;letter-spacing: 3px"><b><i>Dobro došli! </i></b></h1>
+	<br>
+<img  src="C:\Users\Macastiiii\Desktop\SumskiRaj\Images\footer2.jpg" style="width:200px;height:30px; position:relative;margin-left:430px" >
+        <p style="color:grey; text-align: justify; font-size:18px; font-family:Times New Roman; margin-left:80px; margin-right:80px; line-height: 1.8">
+		Na starom putu Novi Sad-Beograd,
+ posle Karlovaca a pre Inđije, u Velikoj Remeti nalazi se oaza mira i tišine etno restoran Šumski raj.Kapacitet restorana je 50 mesta u sali i 200 mesta
+ na letnjoj terasi.Restoran poseduje sopstveno jezero i travnjak od oko 10 000 kvadrata, uz prijatnu okolinu i čist vazduh fruškogorkse
+ šume možete uživati u brojnim aktivnostima za decu i odrasle.Badmington, odbojka na travi, fudbal, vožnje fijakerom(za organizovane grupe),
+ obilasku manastira Velika Remeta koji se nalazi u neposrednoj blizini(50m)... 
+ Restoran je prvi put otvoren 1950 godine tada je domaćin bio deda Đoka,
+ koji je u Šumskom raju ugostio najpoznatije političare,glumce,pevače iz doba Titove Jugoslavije.
+ Tih godina Šumski raj čuvao je najveće tajne,kako se trudimo da u svemu ostanemo dosledni čuvamo ih i mi danas.
+ Ono što ne možemo sakriti jeste da je u šumskom raju sniman film "Skupljači perja", ne znamo da li zbog Šumskog raja ili nečeg drugog ali 
+ film je dobio Zlatnu palmu a naš Šumski raj prvi put viđen na Kanskom platnu.Posle toga restoran je postao klub Norveško-Jugoslovenskog prijateljstva. 
+ Izbor iz jelovnika restorana sa ponosom preporučujemo:rinflajš,rezanci sa makom,srneći gulaš,roštilj "šumski voz".
+Dođite i uverite se u naš kvalitet.<p/>
+         
+		 
+        </div>
+      
+     
+      <div class="clear" id="end"></div>
+    </div>
+    <div id="footer" >
+      <p><a href="https://www.facebook.com/Etno-restoran-Sumski-raj-111678218903120/" class="fa fa-facebook-official" style="font-size:28px;color:black" ></a>| 
+	   |<a href="https://www.instagram.com/explore/locations/619264286/etno-restoran-sumski-raj-velika-remeta/" class="fa fa-instagram" style="font-size:28px;color:black" ></a>|
+	  |<a href="#" class="fa fa-envelope-o" style="font-size:28px;color:black" ></a></<br>
+       <p> Copyright &copy; Etno restoran Šumski raj | Design by Biljana Stojanac</p>
+    </div>
+  </div>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
